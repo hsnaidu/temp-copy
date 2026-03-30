@@ -1,0 +1,186 @@
+[
+    {
+        "user_id": "201ABC",
+        "user_name": "David Miller",
+        "user_phone": "+233-500-101",
+        "user_mail": "david.miller@example.com",
+        "account_status": "active",
+        "preferred_language": "English",
+        "preferred_contact_time": "Morning",
+        "agent_contact_allowed": true,
+        "collector_name": "agent",
+        "collector_id": "123ABC",
+        "billing_address": "Some address",
+        "credit_limit": "$1000.00",
+        "invoice_amount": "$1123.40",
+        "short_payment": 1,
+        "over_payment": 0,
+        "call_type": 1,
+        "dispute": "$123.00",
+        "payment_terms": "Net 30",
+        "status": "pending",
+        "date": "2022-02-01",
+        "notes": [
+            "NA"
+        ],
+        "prompt_used": "call_one",
+        "last_note": "NA",
+        "call_status": "success",
+        "call_duration": "5",
+        "transcript_address": "<transcript_address>",
+        "transcript": "[user: Hello.\nassistant: Hi there! This is LISA from Collections. Am I speaking with Sophia Anderson?\nuser: Yes, this is Sophia.\nassistant: Great, thanks for confirming, Sophia! I'm reaching out about your outstanding balance of $10,000, which was originally due on February 6th, 2026. Just wanted to check in and see if the payment has been processed.\nuser: Yes, I was facing some issues with my bank account. I will need 25 days more to make the payment.\nassistant: I understand, Sophia. That sounds challenging. Since the payment is due soon, could we possibly discuss a partial payment within the next 3 to 4 days? This could help avoid any further issues.\nuser: Sure, I can try to make a partial payment of $2000 in next 10 days.\nassistant: Thank you for that, Sophia. A partial payment of $2000 within the next 10 days sounds good. I'll confirm this arrangement. Please remember that the full balance still needs to be settled. Our team will follow up with you to discuss the rest of the payment.\nuser: Sure, can I get a call back after 3 days on this?]",
+        "agent_call": true,
+        "audio_recording": true,
+        "audio_recording_address": "<audio_recording_address>",
+        "transcript_summary": "The call involved a discussion about Sophia Anderson's outstanding balance of $10,000, originally due on February 6, 2026. Sophia explained delays due to issues with her bank account and agreed to make a partial payment of $2,000 within 10 days, with a request for a call back after 3 days. The arrangement was confirmed, and it was noted that the full balance still needs to be settled.",
+        "transcript_actions": {
+            "agent": [
+                "Confirm partial payment arrangement of $2000 within the next 10 days.",
+                "Inform customer about the need for a full balance settlement.",
+                "Schedule a follow-up call in 3 days as requested by the customer."
+            ],
+            "customer": [
+                "Make a partial payment of $2000 within the next 10 days.",
+                "Prepare to discuss the rest of the payment during the follow-up call in 3 days."
+            ]
+        },
+        "transcript_categorization": "pending"
+    },
+    {
+        "user_id": "202ABC",
+        "user_name": "Sarah Johnson",
+        "user_phone": "+233-500-102",
+        "user_mail": "sarah.johnson@example.com",
+        "account_status": "active",
+        "preferred_language": "English",
+        "preferred_contact_time": "Morning",
+        "agent_contact_allowed": true,
+        "collector_name": "agent",
+        "collector_id": "123ABC",
+        "billing_address": "Some address",
+        "credit_limit": "$1000.00",
+        "invoice_amount": "$845.20",
+        "short_payment": 0,
+        "over_payment": 1,
+        "call_type": 1,
+        "dispute": "$0.00",
+        "payment_terms": "Net 30",
+        "status": "pending",
+        "date": "2022-02-02",
+        "notes": [
+            "NA"
+        ],
+        "prompt_used": "call_one",
+        "last_note": "NA",
+        "call_status": "success",
+        "call_duration": "5",
+        "transcript_address": "<transcript_address>",
+        "transcript": "[user: Hello. Hello.\nassistant: Hi there! This is LISA from Collections. Am I speaking with David Miller?\nuser: Yes, this is David.\nassistant: Thanks for confirming, David! I'm reaching out about your outstanding balance of $3000, originally due on February 7th, 2026. Have you had a chance to process the payment?\nuser: Yes, I'm sorry. I forgot to make that payment. I'll make a payment in next three days\nassistant: No problem at all, David. Could you please confirm that you'll be making the payment by March 5th, 2026? Once you've made the payment, please let us know. Thanks!\nuser: Sure. Thank you.\nassistant: You're welcome, David! Glad we could get that sorted out. Have a great day!]",
+        "agent_call": true,
+        "audio_recording": true,
+        "audio_recording_address": "<audio_recording_address>",
+        "summary": "During the call, the collections representative, Lisa, discussed an outstanding balance of $3,000 with David Miller, originally due on February 7th, 2026. David acknowledged the missed payment and confirmed he would make the payment within three days, no later than March 5th, 2026. The representative requested confirmation once the payment is completed, and the call concluded amicably.",
+        "actions": {
+            "agent": [
+                "Confirm payment date with customer.",
+                "Request customer to notify once payment is made."
+            ],
+            "customer": [
+                "Make a payment of $3000 by March 5th, 2026.",
+                "Notify the agent after making the payment."
+            ]
+        },
+        "call_categorization": "pending"
+    },
+    {
+        "user_id": "203ABC",
+        "user_name": "Michael Brown",
+        "user_phone": "+233-500-103",
+        "user_mail": "michael.brown@example.com",
+        "account_status": "active",
+        "preferred_language": "English",
+        "preferred_contact_time": "Morning",
+        "agent_contact_allowed": true,
+        "collector_name": "agent",
+        "collector_id": "123ABC",
+        "billing_address": "Some address",
+        "credit_limit": "$1000.00",
+        "invoice_amount": "$1560.75",
+        "short_payment": 1,
+        "over_payment": 0,
+        "call_type": 2,
+        "dispute": "$200.00",
+        "payment_terms": "Net 30",
+        "status": "pending",
+        "date": "2022-02-03",
+        "notes": [
+            "NA",
+            "some dispute with customer care person"
+        ],
+        "prompt_used": "call_two",
+        "last_note": "some dispute with customer care person",
+        "call_status": "failed",
+        "call_duration": "0",
+        "transcript_address": "NA",
+        "transcript": "[]",
+        "agent_call": true,
+        "audio_recording": true,
+        "audio_recording_address": "NA",
+        "summary": "No transcript available.",
+        "actions": {
+            "agent": [],
+            "customer": []
+        },
+        "categorization": "call_disconnected"
+    },
+    {
+        "user_id": "204ABC",
+        "user_name": "Emily Davis",
+        "user_phone": "+233-500-104",
+        "user_mail": "emily.davis@example.com",
+        "account_status": "active",
+        "preferred_language": "English",
+        "preferred_contact_time": "Morning",
+        "agent_contact_allowed": true,
+        "collector_name": "agent",
+        "collector_id": "123ABC",
+        "billing_address": "Some address",
+        "credit_limit": "$1000.00",
+        "invoice_amount": "$430.00",
+        "short_payment": 0,
+        "over_payment": 0,
+        "call_type": 2,
+        "dispute": "$0.00",
+        "payment_terms": "Net 30",
+        "status": "pending",
+        "date": "2022-02-04",
+        "notes": [
+            "NA",
+            "pending"
+        ],
+        "audio_recording_enable": true,
+        "transcript_enable": true,
+        "prompt_used": "call_two",
+        "last_note": "pending",
+        "call_status": "success",
+        "call_duration": "5",
+        "transcript_address": "<transcript_address>",
+        "transcript": "[user: Hello.\nassistant: Hi there! This is LISA from Collections. Am I speaking with Sophia Anderson?\nuser: Yes, this is Sophia.\nassistant: Great, thanks for confirming, Sophia! I'm reaching out about your outstanding balance of $10,000, which was originally due on February 6th, 2026. Just wanted to check in and see if the payment has been processed.\nuser: Yes, I was facing some issues with my bank account. I will need 25 days more to make the payment.\nassistant: I understand, Sophia. That sounds challenging. Since the payment is due soon, could we possibly discuss a partial payment within the next 3 to 4 days? This could help avoid any further issues.\nuser: Sure, I can try to make a partial payment of $2000 in next 10 days.\nassistant: Thank you for that, Sophia. A partial payment of $2000 within the next 10 days sounds good. I'll confirm this arrangement. Please remember that the full balance still needs to be settled. Our team will follow up with you to discuss the rest of the payment.\nuser: Sure, can I get a call back after 3 days on this?]",
+        "agent_call": true,
+        "audio_recording": true,
+        "audio_recording_address": "<audio_recording_address>",
+        "summary": "In the call, the collections agent discussed Sophia Anderson's outstanding balance of $10,000, initially due on February 6, 2026. Sophia explained banking issues that delayed payment and agreed to make a partial payment of $2,000 within 10 days, with arrangements to address the remaining balance afterward. The agent confirmed the partial payment plan and agreed to follow up with Sophia after three days as requested.",
+        "actions": {
+            "agent": [
+                "Confirm the arrangement for a partial payment of $2000 within 10 days.",
+                "Follow up with the customer after 3 days as requested.",
+                "Discuss the remaining balance of $8000 after partial payment is made."
+            ],
+            "customer": [
+                "Make a partial payment of $2000 within 10 days.",
+                "Prepare for a follow-up call after 3 days to discuss payment progress."
+            ]
+        },
+        "categorization": "pending"
+    }
+]
